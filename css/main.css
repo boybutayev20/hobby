@@ -187,14 +187,6 @@ ol, ul {
   left: 200px;
 }
 
-body {
-  background-color: blue;
-}
-
-.container {
-  background-color: red;
-}
-
 .plant-img {
   position: absolute;
   left: 170px;
