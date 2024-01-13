@@ -122,7 +122,37 @@
 .idea-container{
     text-align: center;
 }
+.footer-container{
+    display: flex;
+    align-items: start;  
+    justify-content: center;  
+}
 .footer-logo{
     width: 300px;
     max-height: max-content;
+}
+.footer-nav{
+    display: flex;
+    align-items: start;
+    gap: 10px;
+    h2{
+        margin-bottom: 10px;
+    }
+    a{
+        margin-bottom: 5px;
+    }
+}
+.first-item,.second-item{
+    a{
+        margin-bottom: 10px;
+    }
+}
+.footer-logo-list{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.footer-logo{
+    margin-right: 200px;
 }

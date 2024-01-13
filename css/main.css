@@ -73,14 +73,20 @@ ol, ul {
   border-radius: 15px;
 }
 
+.login {
+  width: 110px;
+  height: 42px;
+  background-color: #0CA941;
+  color: #FFF;
+  border: 1px solid #0CA941;
+  border-radius: 5px;
+}
+
 .header-container {
   display: flex;
   align-items: center;
   margin-bottom: 60px;
-}
-
-.header-logo {
-  margin-right: 428px;
+  justify-content: space-between;
 }
 
 .logo-list {
@@ -314,8 +320,40 @@ ol, ul {
   text-align: center;
 }
 
+.footer-container {
+  display: flex;
+  align-items: start;
+  justify-content: center;
+}
+
 .footer-logo {
   width: 300px;
   max-height: -moz-max-content;
   max-height: max-content;
+}
+
+.footer-nav {
+  display: flex;
+  align-items: start;
+  gap: 10px;
+}
+.footer-nav h2 {
+  margin-bottom: 10px;
+}
+.footer-nav a {
+  margin-bottom: 5px;
+}
+
+.first-item a, .second-item a {
+  margin-bottom: 10px;
+}
+
+.footer-logo-list {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.footer-logo {
+  margin-right: 200px;
 }/*# sourceMappingURL=main.css.map */
