@@ -1,0 +1,134 @@
+@import "fonts";
+@import "visually-hidden";
+@import "normalize";
+@import "general";
+@import "all-blocks/all-blocks";
+
+body{
+    background-color: blue;
+}
+.container{
+    background-color: red;
+}
+.plant-img{
+    position: absolute;
+    left:170px;
+}
+// gardener start
+.gardener-container{
+    display: flex;
+    margin-bottom: 40px;
+}
+.gardener-left{
+    margin-right: 57px;
+}
+.gardener-right{
+    width: 458px;
+    h2{
+        padding-top: 50px;
+        font-size: 36px;
+        line-height: 44px;
+        color: $deep-gray;
+        margin-bottom: 31px;
+        font-family: $fredoka;
+
+    }
+    p{
+        margin-bottom: 40px;
+    }
+    position: relative;
+    img{
+        position: absolute;
+        top: 360px;
+    }
+    
+}
+.aid-container{
+    margin-bottom: 170px;
+    display: flex;
+    align-items: center;
+
+    h2{
+        font-family: $fredoka;
+        font-size: 36px;
+        line-height: 60px;
+    }
+    p{
+        margin-bottom: 60px;
+    }
+}
+.aid-left{
+    width: 458px;
+    max-height: max-content;
+    margin-right: 200px;
+}
+.aid-right{
+    display: flex;
+    align-items: center;
+}
+.choose-container{
+    margin-bottom: 140px;
+    text-align: center;
+    h2{
+        padding-top: 50px;
+        margin-bottom: 31px;
+        font-family: $fredoka;
+        font-size: 36px;
+        line-height: 40px;
+        color: black;
+    }
+    p{
+        margin-bottom: 50px;
+    }
+}
+.plants{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;   
+}
+.plant1,.plant2,.plant3{
+    width: 360px;
+    max-height: max-content;
+    text-align: center;
+    padding: 30px 35px;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    img{
+        padding-top: 31px;
+        margin-bottom: 13px;
+    }
+    h2{
+        font-size: 24px;
+        line-height: 30px;
+        color: $deep-gray;
+        margin-bottom: 8px;
+    }
+
+}
+.rates-list{
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    margin-bottom: 8.8px;
+}
+.price-nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}   
+.price-list{
+    p{
+        font-size: 12px;
+    }
+    h2{
+        padding-top: 0px;
+        font-size: 20px;
+        color: $green;
+    }
+}
+.idea-container{
+    text-align: center;
+}
+.footer-logo{
+    width: 300px;
+    max-height: max-content;
+}

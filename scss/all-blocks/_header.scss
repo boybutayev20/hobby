@@ -1,0 +1,17 @@
+.header-container{
+    display: flex;
+    align-items: center  ;
+    margin-bottom: 60px;
+}
+.header-logo{
+    margin-right: 428px;
+}
+.logo-list{
+    display: flex;
+    align-items: center;
+    .logo-item{
+        img{
+            margin-right: 10px;
+        }
+    }
+}

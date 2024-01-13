@@ -1,0 +1,41 @@
+.green{
+    color: $green;
+}
+.hero-container{
+    display: flex;
+    align-items: self-start;
+    position: relative;
+    .line{
+        position: absolute;
+        top: 525px;
+        left: 350px;
+    }
+    padding-bottom: 20px;
+}
+.hero-left{
+    width: 612px;
+    max-height: max-content;
+    h2{
+        padding-top: 100px;
+        color: $deep-gray;
+        font-size: 72px;
+        font-family: $fredoka;
+        line-height: 76px;
+        font-variant: small-caps;
+        font-weight: 400;
+        margin-bottom: 39px;
+    }
+    p{
+        margin-bottom: 40px;
+    }
+    a{
+        margin-bottom: 86px;
+    }
+    margin-right: 250px;
+    justify-content: center;
+}
+.kaktus{
+    position: absolute;
+    top: 550px;
+    left: 670px;
+}

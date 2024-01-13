@@ -1,0 +1,40 @@
+.service-container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    h2{
+        padding-top: 100px;
+        margin-bottom: 9px;
+        color: $deep-gray;
+        font-family: $fredoka;
+        font-size: 30px;
+        line-height: 40px;
+        font-weight: 400;
+    }
+    p{
+        color: $deep-gray;
+        padding-bottom: 40px;
+    }
+
+}
+.service-left{
+    width: 310px;
+    margin-right: 200px;
+}
+.service-list{
+    display: flex;
+    align-items: center;
+
+}
+.service-item{
+    h2{
+        color: $green;
+    }
+
+}
+.plant-img{
+    position: absolute;
+    top: -20px;
+    left: 200px;
+}

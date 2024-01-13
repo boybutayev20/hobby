@@ -1,0 +1,25 @@
+.card1{
+    margin-bottom: 40px;
+
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    border-radius: 25px;
+    background-color: #fff;
+    width: 268px;
+    height: 330px;
+    // max-height: max-content;
+    padding: 0 25px;
+    text-align: center;
+    img{
+        padding-top: 46px;
+    }
+    h2{
+        font-size: 24px;
+        line-height: 26px;
+        color: $deep-gray;
+        font-family: $fredoka;
+        margin-bottom: 13px;
+    }
+    p{
+        padding-bottom: 18px;
+    }
+}
